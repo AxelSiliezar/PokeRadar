@@ -1,6 +1,464 @@
 {
-    "type": "MultiPolygon",
-    "coordinates": [
-        
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254505,
+          37.755831
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01036",
+        "Address": "2227 S Shore Center",
+        "City": "Alameda",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273995,
+          37.772836
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01268",
+        "Address": "2600 5th St",
+        "City": "Alameda",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2608,
+          38.17492
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01528",
+        "Address": "103 American Canyon Rd",
+        "City": "American Canyon",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.945093,
+          33.803092
+        ]
+      },
+      "properties": {
+        "Retailer": "Food 4 Less",
+        "MachineID": "Q00330",
+        "Address": "1616 W Katella Ave",
+        "City": "Anaheim",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.88896,
+          33.81803
+        ]
+      },
+      "properties": {
+        "Retailer": "Albertsons",
+        "MachineID": "Q00491",
+        "Address": "810 S State College Blvd",
+        "City": "Anaheim",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.79197,
+          33.85382
+        ]
+      },
+      "properties": {
+        "Retailer": "Vons",
+        "MachineID": "Q00695",
+        "Address": "5600 E Santa Ana Canyon Rd",
+        "City": "Anaheim",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.908752,
+          36.979286
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01333",
+        "Address": "16 Rancho del Mar",
+        "City": "Aptos",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.023469,
+          34.107609
+        ]
+      },
+      "properties": {
+        "Retailer": "Albertsons",
+        "MachineID": "Q00467",
+        "Address": "298 Live Oak Ave",
+        "City": "Arcadia",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.057795,
+          34.125424
+        ]
+      },
+      "properties": {
+        "Retailer": "Vons",
+        "MachineID": "Q00715",
+        "Address": "745 W Naomi Ave",
+        "City": "Arcadia",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.08515,
+          38.91552
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q00918",
+        "Address": "2550 Bell Rd",
+        "City": "Auburn",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.164467,
+          33.97039
+        ]
+      },
+      "properties": {
+        "Retailer": "Food 4 Less",
+        "MachineID": "Q00711",
+        "Address": "6901 Eastern Ave",
+        "City": "Bell Gardens",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26884,
+          37.52071
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01083",
+        "Address": "1100 El Camino Real",
+        "City": "Belmont",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.158578,
+          38.049365
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01274",
+        "Address": "50 Solano Square",
+        "City": "Benicia",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26958,
+          37.88018
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01020",
+        "Address": "1444 Shattuck Pl",
+        "City": "Berkeley",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.72948,
+          37.96108
+        ]
+      },
+      "properties": {
+        "Retailer": "WinCo Foods",
+        "MachineID": "Q00597",
+        "Address": "6700 Lone Tree Wy",
+        "City": "Brentwood",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.34063,
+          34.15556
+        ]
+      },
+      "properties": {
+        "Retailer": "Vons",
+        "MachineID": "Q00314",
+        "Address": "301 N Pass Ave",
+        "City": "Burbank",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.70286,
+          34.14406
+        ]
+      },
+      "properties": {
+        "Retailer": "Albertsons",
+        "MachineID": "Q00523",
+        "Address": "26521 Agoura Rd",
+        "City": "Calabasas",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.05922,
+          34.22796
+        ]
+      },
+      "properties": {
+        "Retailer": "Vons",
+        "MachineID": "Q01242",
+        "Address": "940 Arneill RD",
+        "City": "Camarillo",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.98711,
+          38.66349
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q00974",
+        "Address": "3380 Coach Ln",
+        "City": "Cameron Park",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95042,
+          37.28044
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q00971",
+        "Address": "2341 S Winchester Blvd",
+        "City": "Campbell",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.96016,
+          37.29486
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01539",
+        "Address": "950 W Hamilton Ave",
+        "City": "Campbell",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.34584,
+          33.17816
+        ]
+      },
+      "properties": {
+        "Retailer": "Vons",
+        "MachineID": "Q00875",
+        "Address": "2560 El Camino Real",
+        "City": "Carlsbad",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.26751,
+          33.09714
+        ]
+      },
+      "properties": {
+        "Retailer": "Vons",
+        "MachineID": "Q01024",
+        "Address": "6951 El Camino Real",
+        "City": "Carlsbad",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.32837,
+          38.64817
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q00989",
+        "Address": "4040 Manzanita Ave",
+        "City": "Carmichael",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.27189,
+          33.80974
+        ]
+      },
+      "properties": {
+        "Retailer": "Albertsons",
+        "MachineID": "Q00722",
+        "Address": "200 E Sepulveda Blvd",
+        "City": "Carson",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05623,
+          37.69467
+        ]
+      },
+      "properties": {
+        "Retailer": "Safeway",
+        "MachineID": "Q01102",
+        "Address": "4015 E Castro Valley Blvd",
+        "City": "Castro Valley",
+        "State": "CA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.68815,
+          34.02437
+        ]
+      },
+      "properties": {
+        "Retailer": "Albertsons",
+        "MachineID": "Q00509",
+        "Address": "12013 Central Ave",
+        "City": "Chino",
+        "State": "CA"
+      }
+    }
+  ]
 }
