@@ -17,11 +17,9 @@ struct ContentView: View {
                 // Main content based on selected tab
                 Group {
                     if selectedTab == 0 {
-                        Text("Community View")
-                            .font(.largeTitle)
+                        PokemonCardSearchView()
                     } else if selectedTab == 1 {
-                        Text("Display View")
-                            .font(.largeTitle)
+                        CardScannerView()
                     } else if selectedTab == 2 {
                         MapView(searchText: $searchText) // Home page
                     } else if selectedTab == 3 {
