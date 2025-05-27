@@ -15,16 +15,42 @@ struct MapView: View {
         span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
     )
     @Binding var searchText: String
+    @Binding var showSearchBar: Bool
 
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: viewModel.locations) { location in
-            MapAnnotation(coordinate: location.coordinate) {
-                Image("center-icon")
-                    .resizable()
-                    .frame(width: 30, height: 30)
+        ZStack {
+            // Map view
+            Map(coordinateRegion: $region, annotationItems: viewModel.locations) { location in
+                MapAnnotation(coordinate: location.coordinate) {
+                    Image("center-icon")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                }
+            }
+            .edgesIgnoringSafeArea(.all)
+
+            VStack {
+                // Top buttons
+                HStack {
+                    Spacer()
+                }
+                .frame(height: 50)
+                .padding(.top, 50)
+
+                // Search bar positioned lower
+                if showSearchBar {
+                    SearchBar(text: $searchText)
+                        .padding(10)
+                        .background(Color.white.opacity(0.9))
+                        .cornerRadius(15)
+                        .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 2)
+                        .padding(.horizontal, 20)
+                        .padding(.top, 20) // Adjusted padding to move it lower
+                }
+
+                Spacer()
             }
         }
-        .edgesIgnoringSafeArea(.all)
         .onChange(of: searchText) { newValue in
             search(for: newValue)
         }
