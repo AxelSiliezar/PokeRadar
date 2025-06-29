@@ -30,7 +30,7 @@ struct SearchBar: UIViewRepresentable {
         let searchBar = UISearchBar(frame: .zero)
         searchBar.delegate = context.coordinator
         searchBar.searchBarStyle = .minimal
-        searchBar.placeholder = "Search for a place..."
+        searchBar.placeholder = "Search for a City & State Or Zip Code"
         return searchBar
     }
 
